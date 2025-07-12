@@ -6,7 +6,6 @@ import {
   HomeIcon,
   UsersIcon,
   AcademicCapIcon,
-  CalendarIcon,
   Cog6ToothIcon,
 } from '@heroicons/react/24/outline';
 
