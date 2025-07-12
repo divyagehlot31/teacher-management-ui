@@ -8,7 +8,7 @@ export default function DashboardPage() {
     <div className="flex w-full">
       <Sidebar />
       <main className="ml-60 p-6 w-full bg-white">
-        <Header toggleSidebar={() => {}} />
+<Header toggleSidebar={() => {}} />
 
         {/* Dashboard Title */}
         <h2 className="text-2xl font-bold mb-6 text-gray-800">🏠 Dashboard</h2>
