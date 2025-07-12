@@ -43,7 +43,7 @@ export default function GradeStudentList() {
     <div className="flex w-full">
       <Sidebar />
       <main className="ml-60 p-6 w-full bg-white">
-        <Header />
+<Header toggleSidebar={() => {}} />
         <button onClick={() => router.back()} className="text-2xl font-bold mb-6 text-gray-800">
           ⬅️  <span > 📘 Students of Class {grade}</span>
         </button>
