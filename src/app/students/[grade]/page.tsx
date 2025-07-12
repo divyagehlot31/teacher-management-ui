@@ -32,9 +32,7 @@ export default function GradeStudentList() {
       <div className="flex w-full">
         <Sidebar />
         <main className="ml-60 p-6 w-full bg-white">
-          <Header toggleSidebar={function (): void {
-            throw new Error('Function not implemented.');
-          } } />
+<Header toggleSidebar={() => {}} />
           <h2 className="text-xl text-red-600">No students found for class {grade}</h2>
         </main>
       </div>
